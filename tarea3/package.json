@@ -1,0 +1,20 @@
+{
+  "name": "tarea3",
+  "version": "1.2.0",
+  "description": "realizo terea 3",
+  "main": "init.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon init.js",
+    "watch": "nodemon init.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tarea3"
+  ],
+  "author": "Rodrigo Ramirez",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
