@@ -12,8 +12,9 @@ function sacarNumeros(){
         setTimeout(() => {
             resolve ([ 
                 fs.readFile('./numeros.txt', (error, data) => {
-                    const numerosPares = data.filter(numero => numero % 2 === 0)
-                    console.log('numeros Pares =', numerosPares.toString())
+                    const arrayDeNumeros = data.toString().split(",")
+                    const numerosPares = arrayDeNumeros.filter(numero => numero % 2 === 0)
+                    console.log('numeros Pares =', numerosPares)
                     
                 })
             ])
@@ -23,8 +24,6 @@ function sacarNumeros(){
 }
 sacarNumeros()
 
-//se intentó varias formas, pero no se logró sacar los nros pares como debiera ser,
-// se deja esta forma que es la que mas se asemeja a lo buscado.
 
         
         
