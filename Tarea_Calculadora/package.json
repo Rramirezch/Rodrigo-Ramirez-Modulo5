@@ -1,0 +1,13 @@
+{
+  "name": "tarea_calculadora",
+  "version": "1.0.0",
+  "description": "realizar tarea 5",
+  "main": "calculadora.js",
+  "scripts": {
+    "start": "node calculadora.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "RodrigoR",
+  "license": "ISC",
+  "type": "module"
+}
